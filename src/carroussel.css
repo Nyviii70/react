@@ -1,0 +1,60 @@
+.carroussel-content {
+    background-color: rgb(228, 225, 225);
+    height: 100%;
+    padding-left: 10%;
+
+}
+
+.main-container {
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(228, 225, 225);
+    margin-top: 8px;
+    margin-left: 100px;
+    max-width: 1000px;
+}
+
+.carroussel-container {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    flex-direction: row;
+}
+
+.left-element {
+    display: flex;
+}
+    .card-image img {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+.right-element {
+    flex: 1 1 50%;
+    padding: 10px;
+}
+    .card-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+        .card-title a {
+            padding: 4px 7px;
+            background-color: red;
+            border-radius: 3px;
+            color: white;
+            font-size: xx-small;
+        }
+    .card-text {
+        font-weight: bold;
+    }
+
+
+
+
+@media(max-width: 910px) {
+
+}

@@ -1,0 +1,189 @@
+.articles-content {
+    justify-content: center;
+    display: flex;
+}
+.articles-main-container {
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 30px 0 0;
+    max-width: 1000px;
+}
+    .articles-main-container li {
+        list-style-type: none;
+    }
+
+
+
+.articles-lister {
+    position: relative;
+    overflow: hidden;
+    width: 1100px;
+    justify-content: center;
+}
+
+
+
+.articles-1 {
+    float: left;
+    width: calc(58% - 10px);
+    height: 415px;
+    margin-bottom: 0;
+}  
+    .image-articles-1 {
+        height: 100%;
+        width: 100%;
+        display: block;
+        float: left;
+        overflow: hidden;
+        position: relative;
+    }
+    .container-articles-1{
+        position: absolute;
+        bottom: 60px;
+        width: 628px;
+        overflow: hidden;
+        z-index: 5;
+        box-sizing: border-box;
+        padding: 20px;
+        background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,0.8));
+    }
+        .title-articles-1 {
+            height: auto;
+            display: inline-block;
+            padding: 6px 8px;
+            margin: 0 0 10px;
+            background-color: red;
+            color: white;
+            border-radius: 2px;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        .text-articles-1 {
+            margin: 0 0 7px;
+            line-height: 1.5em;
+            font-size: 25px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .author-articles-1 {
+            font-size: 12px;
+            color: rgb(146, 146, 146);
+        }
+        .date-articles-1 {
+            font-size: 12px;
+            color: rgb(146, 146, 146);
+        }
+            .date-articles-1 path {
+                height: 3px;
+                width: 3px;
+            }
+
+
+
+.articles-2 {
+    display: flex;
+    width: 410px;
+}  
+    .image-articles-2 {
+        padding-left: 25px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        height: 110px;
+        width: 205px;
+        margin-bottom: 17px;
+    }
+    .container-articles-2 {
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 300px;
+    }
+        .title-articles-2 {
+            color: red;
+            font-weight: bold;
+            font-size: small;
+        }
+        .text-articles-2 {
+            color: black;
+            font-weight: bold;
+        }
+        .date-articles-2 {
+            color: gray;
+            font-size: 12px;
+        }
+
+
+
+.articles-3 {
+    display: flex;
+    width: 410px;
+}  
+    .image-articles-3 {
+        padding-left: 25px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        height: 110px;
+        margin-bottom: 17px;
+    }
+    .container-articles-3 {
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 300px;
+    }
+        .title-articles-3 {
+            color: red;
+            font-weight: bold;
+            font-size: small;
+        }
+        .text-articles-3 {
+            color: black;
+            font-weight: bold;
+        }
+        .date-articles-3 {
+            color: gray;
+            font-size: 12px;
+        }
+
+
+
+.articles-4 {
+    display: flex;
+    width: 410px;
+}  
+    .image-articles-4 {
+        padding-left: 25px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        height: 110px;
+        width: 205px;
+    }
+    .container-articles-4 {
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 300px;
+    }
+        .title-articles-4 {
+            color: red;
+            font-weight: bold;
+            font-size: small;
+        }
+        .text-articles-4 {
+            color: black;
+            font-weight: bold;
+        }
+        .date-articles-4 {
+            color: gray;
+            font-size: 12px;
+        }
+
+/* ---------------------MEDIA QUERY--------------------- */
+
+@media(max-width: 900px) {
+    .other-articles-container {
+        background-color: red;
+    }
+
+}

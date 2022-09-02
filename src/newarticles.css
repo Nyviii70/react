@@ -1,0 +1,28 @@
+.articles-container {
+    background-color: red;
+}
+
+.article-left {
+    background-color: blue;
+    width: 50%;
+    float: left;
+}
+    .image-article-1 {
+        width: 608px;
+        height: 350px;
+    }
+    .text-container-article-1 {
+        background-color: pink;
+    }
+        .title-article-1 {
+            background-color: yellow;
+        }
+
+.articles-right {
+    background-color: green;
+    width: 50%;
+    float: right;
+}
+    .articles-right-1 {
+        background-color: orange;
+    }

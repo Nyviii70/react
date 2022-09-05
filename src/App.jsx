@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import FirstNav from "./FirstNav";
 import SecondNav from "./SecondNav";
 import Carroussel from "./Carroussel";
-// import Articles from "./Articles";
 import NewArticles from "./NewArticles";
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
       <SecondNav />
       <Carroussel />
       <NewArticles />
-      {/* <Articles /> */}
     </Fragment>
   )
 }

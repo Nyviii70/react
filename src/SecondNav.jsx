@@ -9,7 +9,7 @@ import { useState } from "react";
 
 export default function SecondNav() {
     const [burgerClicked, setBurgerClicked] = useState(false);
-    const [underMenuOpen, setUnderMenuOpen] = useState(false);
+    // const [underMenuOpen, setUnderMenuOpen] = useState(false);
     return(
         <>
         <div className="secondnav-container">

@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import FirstNav from "./FirstNav";
 import SecondNav from "./SecondNav";
-import Carroussel from "./Carroussel";
+import NewCarousel from "./NewCarousel";
+// import Carroussel from "./Carroussel";
 import NewArticles from "./NewArticles";
 
 export default function App() {
@@ -9,7 +10,8 @@ export default function App() {
     <Fragment>
       <FirstNav />
       <SecondNav />
-      <Carroussel />
+      <NewCarousel />
+      {/* <Carroussel /> */}
       <NewArticles />
     </Fragment>
   )

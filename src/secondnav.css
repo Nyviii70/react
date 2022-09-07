@@ -14,7 +14,8 @@
 
 
 .secondnav-container{
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
 }
     .secondnav-lister {
         width: 100%;
@@ -30,7 +31,6 @@
             margin: 0 20px 0 0;
             padding: 9px 0;
         }
-
         .secondnav-buttons {
             float: left;
             position: static;
@@ -70,13 +70,85 @@
 
 
 /* -----------------------------SOUS MENU----------------------------- */
-.under-secondnav-lister{
+.features-under-secondnav-lister {
     display: none;
 }
+.features-under-secondnav-lister.open{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 5%;
+}
+    .features-under-secondnav-list {
+        display: inline;
+        padding: 0px 20px;
+        position: relative;
+        margin: 0;
+        background-color: white;
+    }
+    .features-under-secondnav-list-a {
+        position: relative;
+        line-height: 70px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .features-under-secondnav-list-a:hover {
+        color: red;
+    }
+        .features-under-list {
+            width: 160px;
+            text-align: center;
+        }
 
 
+
+.doc-under-secondnav-lister {
+    display: none;
+}
+.doc-under-secondnav-lister.open{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 33%;
+}
+    .doc-under-secondnav-list {
+        display: inline;
+        padding: 0px 20px;
+        position: relative;
+        margin: 0;
+        background-color: white;
+    }
+    .doc-under-secondnav-list-a {
+        position: relative;
+        line-height: 70px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .doc-under-secondnav-list-a:hover {
+        color: red;
+    }
+        .doc-under-list {
+            width: 160px;
+            text-align: center;
+        }
 /* ---------------------MEDIA QUERY--------------------- */
 
+
+@media(max-width: 1170px) {
+    .secondnav-buttons {
+        display: none;
+    }
+}
 @media(max-width: 950px) {
     .burger {
         display: inline;

@@ -4,14 +4,15 @@ import SecondNav from "./SecondNav";
 import NewCarousel from "./NewCarousel";
 // import Carroussel from "./Carroussel";
 import NewArticles from "./NewArticles";
+import NewSecondNav from "./NewSecondNav";
 
 export default function App() {
   return (
     <Fragment>
       <FirstNav />
-      <SecondNav />
+      <NewSecondNav />
+      {/* <SecondNav /> */}
       <NewCarousel />
-      {/* <Carroussel /> */}
       <NewArticles />
     </Fragment>
   )

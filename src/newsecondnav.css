@@ -1,0 +1,137 @@
+.secondnav-container {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    font-size: smaller;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-top: 5px;
+}
+
+.burger {
+    display: none;
+}
+.secondnav-button {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.secondnav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: bold;
+}
+
+.secondnav-item {
+    position: relative;
+}
+
+/* .secondnav-item {
+    
+}
+
+.secondnav-item-features {
+    
+} */
+
+.secondnav-subnav-features {
+    list-style: none;
+    position: absolute;
+    list-style: none;
+    
+}
+    .secondnav-item-features-deployable svg {
+        font-size: 10px;
+    }
+
+.secondnav-subnav-features-item {
+    list-style: none;
+    display: none;
+}
+    .secondnav-subnav-features-item:hover {
+        color: red;
+    }
+
+/* .secondnav-item-doc {
+
+} */
+
+.secondnav-subnav-doc-item {
+    list-style: none;
+    display: none;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+    .secondnav-subnav-doc-item:hover {
+        color: red;
+    }
+
+.secondnav-search {
+    font-size: 20px;
+}
+.secondnav-search:hover {
+    color: red;
+}
+
+
+
+/* ------------------------------ONCLICK------------------------------ */
+.secondnav-subnav-features-item.open {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+
+/* ------------------------------MEDIA QUERY------------------------------ */
+
+@media(max-width: 1217px) {
+    .secondnav-button {
+        display: none;
+    }
+    .secondnav-container {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        padding: 10px;
+        align-items: center;
+        font-size: smaller;
+        justify-content: space-between;
+        max-width: 80%;
+        margin-top: 5px;
+    }
+    .burger {
+        display: flex;
+    }
+}
+@media(max-width: 780px) {
+    .secondnav-button {
+        display: none;
+    }
+    .secondnav-container {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        padding: 10px;
+        align-items: center;
+        font-size: smaller;
+        justify-content: center;
+        max-width: 80%;
+        margin-top: 5px;
+    }
+    .burger {
+        display: flex;
+    }
+    .secondnav-logo {
+        display: none;
+    }
+    .secondnav-search {
+        display: none;
+    }
+}
